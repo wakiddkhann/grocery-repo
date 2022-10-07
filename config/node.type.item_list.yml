@@ -1,0 +1,18 @@
+uuid: 3e8d0218-ba08-4853-87ed-49535a7a3968
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Item List'
+type: item_list
+description: 'This is list of grocery.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

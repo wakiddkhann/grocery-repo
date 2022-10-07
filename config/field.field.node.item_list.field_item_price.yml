@@ -1,0 +1,23 @@
+uuid: 342a267b-f945-4153-a6dd-264f591363ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_price
+    - node.type.item_list
+id: node.item_list.field_item_price
+field_name: field_item_price
+entity_type: node
+bundle: item_list
+label: 'Item price(Rupees)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

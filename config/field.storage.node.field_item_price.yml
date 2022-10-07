@@ -1,0 +1,20 @@
+uuid: ca5973d3-8e51-49b1-b1cd-4b09ba7c16b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_item_price
+field_name: field_item_price
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
